@@ -100,6 +100,7 @@ public class BMICalc extends AppCompatActivity {
         }
     };
 
+    //Tar bort keyboard vid knapptryck
     private void closeKeyboard() {
         View view = this.getCurrentFocus();
         if (view != null) {
